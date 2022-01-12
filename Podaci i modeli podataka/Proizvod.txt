@@ -1,0 +1,11 @@
+Proizvod
+Opisuje artikle u ponudi. Svaki artikal sadrži naziv, opis, sliku, cenu, kategoriju. Može da se naznači da li postoji ili ne postoji.
+Podaci o proizvodu:
+Sadrži sledeće podatke:
+	Indentifikacioni broj – Primarni ključ
+	Naziv – string
+	Opis - text
+	Slika - string
+	Cena - decimal
+	Kategorija - string
+	Dostupno - boolean
