@@ -1,0 +1,6 @@
+Modeluje narudžbinu koju kupac kreira pomoću sajta. Kasnije se koristi da se naznači da je završena ili preuzeta.
+ Modeluje se u bazi podataka u tabeli "narudžbina".
+Podaci o narudzbini:
+Sadrži sledeće podatke:
+	Indentifikacioni broj narudžbine – Primarni ključ
+	ukupan iznos - decimal
