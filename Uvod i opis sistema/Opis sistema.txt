@@ -1,0 +1,21 @@
+Sistem radi na sledeći način:
+Na početnoj strani sajta korisnik pronalazi artikle i filtere, kako bi lakše dospeo do konkretnih proizvoda koji ga interesuju. Kada korisnik klikne na određen proizvod,
+ prikazuju mu se slike proizvoda, cena istog, kategorija, polje za unos željene količine i polje dodaj u korpu.
+Kupac dodaje proizvod u korpu, ali ukoliko nije dodao pravi proizvod, on ima mogućnost da uđe u korpu i obriše neželjeni proizvod ili izmeni količinu.
+Ukoliko korisnik želi da poruči ono šta se nalazi u korpi, pritisnuće dugme poruči, gde će dalje dobiti jasne instrukcije kako da plaćanje dovrši.
+ Uz pomenute instrukcije, korisniku će se prikazati dugme za poništavanje ovog koraka, koji ukoliko pritisne, ne vraća ga na početno stanje, već ga vraća na korpu.
+U slučaju da korisnik pritisne dugme poruči, prikazaće se stranica koja zahteva od njega podatke, a to su:
+	Ime i prezime
+	Adresa
+	Mesto stanovanja
+	Broj telefona
+	Način plaćanja (ukoliko plaća karticom, zahteva se od njega da obavezno ispuni polje ispod, a to je broj kartice, a u slučaju plaćanja pouzećem, 
+to polje, podrazumeva se, neće biti obavezno)
+Nakon što popuni sve podatke, prikazaće mu se dugme dovrši porudžbinu, te ta porudžbina ide dalje na obradu.
+Tako pripremljenu narudžbinu magacioner pronalazi u magacinu i kada je pronađe, šalje na reviziju dežurnom operateru,
+koji može da je odbije (ukoliko primeti očigledan problem sa narudžbinom), prihvati (ukoliko je očigledno sve u redu) ili pozove mušteriju da proveri, pri čemu može da po potrebi izvrši korekcije u narudžbini a zatim da je prihvati ili odbije.
+Prihvaćena i kompletna narudžbina predaje se privatnoj kurirskoj službi sa kojom naša prodavnica sarađuje, te je oni pakuju i šalju svog kurira na kućnu adresu poručioca,
+koji vrši naplatu ukoliko se ista vrši pouzećem, a kasnije kurirska služba uručuje novac od porudžbine prodavnici umanjen za iznos fiksne provizije za izvršenu isporuku.
+Ukoliko narudžbinu već dežurni operater označi kao neispravnu, ona se vraća u magacin, te se vraća dobavljačima. 
+Ako je narudžbina poslata ispravna kurirskoj službi, a služba ima određenih problema sa njom, porudžbina se vraća u prodavnicu.
+Nakon izvršene predaje artrikla kupcu, ažurira se broj količine artikala u prodavnici, operater evidentira platni promet, a narudžbina biva označena kao završena

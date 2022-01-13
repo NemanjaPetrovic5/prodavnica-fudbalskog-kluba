@@ -1,0 +1,4 @@
+Naša onlajn prodavnica vrši prodaju fudbalskih artikala.
+U onlajn prodavnici kupci mogu pronaći proizvode svog omiljenog fudbalskog kluba.
+Korisniku sajta se prikazuje kompletna ponuda artikala,
+te on iste može dodati u korpu i nakon toga poručiti.
