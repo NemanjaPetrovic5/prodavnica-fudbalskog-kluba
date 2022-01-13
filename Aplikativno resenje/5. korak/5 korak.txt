@@ -1,0 +1,2 @@
+Klikom na dugme dovrši porudžbinu, kupac se odlučuje da definitivno u centralu pošalje signal da je poručio određen(e) proizvod(e) i da proces obrade poudžbine može da počne, 
+odnosno da je sama porudžbina dovršena (ekran 4)

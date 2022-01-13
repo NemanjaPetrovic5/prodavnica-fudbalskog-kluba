@@ -1,0 +1,10 @@
+Ukoliko korisnik odluči da pritisne filter,
+ pojaviće mu se isključivo proizvodi koji 
+ispunjavaju kriterijume (ekran 1.1). 
+Naravno korisnik može da odabere i više filtera, 
+ali ukoliko prođe 2 sekunde od pritiska na jedan filter,
+ biće preusmeren na proizvode koji imaju samo tu jednu kategoriju.
+ Ukoliko želi više filtera, mora pritisnuti u kratkom roku više filtera.
+ Takođe, svaki put kada korisnik uradi neki korak, kojim više nije u početnom stanju,
+ pojaviće mu se u gornjem levom ćošku dugme nazad na početak. 
+Ukoliko korisnik odluči da klikne na određen proizvod pojaviće mu se detalji o istom (ekran 1.2).

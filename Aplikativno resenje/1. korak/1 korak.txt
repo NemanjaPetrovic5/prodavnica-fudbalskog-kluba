@@ -1,0 +1,4 @@
+Prvi korak – početna stranica
+Na početnoj stranici (ekran 0) se nalaze proizvodi koje naša prodavnica nudi i filteri,
+ kojima korisnik na klik na kategoriju koja ga interesuje,
+ na ekranu dobija proizvode sortirane po toj kategoriji.

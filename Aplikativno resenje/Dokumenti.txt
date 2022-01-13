@@ -1,0 +1,4 @@
+Od dokumenata u sistemu prepoznajemo jedino račun prilikom dostave proizvoda,
+koji naša onlajn prodavnica izdaje kao dokument kojim se kupcu prikazuje cena
+svakog proizvoda i usluge (dostave) u obavljenoj transakciji. 
+Takođe, taj račun služi i kao mogućnost zamene tog proizvoda u određenom roku.

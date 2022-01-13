@@ -1,0 +1,4 @@
+Ukoliko se korisnik odluči da isprazni korpu,
+ prikazaće mu se ekran sledeće sadržine (ekran 3.1): 
+Ukoliko se u suprotnom odluči da pređe na dalju porudžbinu, pojaviće se stranica koja zahteva od 
+korisnika podatke neophodne za isporuku (ekran 3.2).

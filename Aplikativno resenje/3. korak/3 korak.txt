@@ -1,0 +1,2 @@
+Korisnik dalje ulazi u korpu i pregleda je (ekran 2), te briše artikle iz iste (ekran 3.1) ili nastavlja kupovinu (ekran 3.2), ili čak dodaje nešto još u svoju korpu,
+ a ukoliko klikne to dugme, vratiće ga na početnu stranu (ekran 0).
