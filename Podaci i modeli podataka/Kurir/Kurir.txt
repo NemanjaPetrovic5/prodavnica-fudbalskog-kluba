@@ -1,0 +1,9 @@
+Kurir
+Kurir opisuje osobu koja je nadležna da isporuka stigne u dogovorenom roku, neoštećena na adresu kupca, kao i da naplati porudžbinu ukoliko se kupac odlučio za plaćanje pouzećem.
+Sadrži sledeće podatke:
+	Indentifikacioni broj – Primarni ključ
+	Ime – stirng
+	Prezime - string
+	Broj telefona - string
+	Adresa - string
+	Datum rodjenja - Date

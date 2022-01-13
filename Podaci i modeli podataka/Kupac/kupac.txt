@@ -1,0 +1,10 @@
+Kupac
+Opisuje svakog kupca koji kupuje preko našeg sajta.
+Podaci o kupcu
+Sadrži sledeće podatke:
+	Indentifikacioni broj – Primarni ključ
+	Ime – stirng
+	Prezime - string
+	Broj telefona - string
+	Adresa - string
+	Datum rodjenja - Date

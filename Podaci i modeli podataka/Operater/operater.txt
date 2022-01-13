@@ -1,0 +1,9 @@
+Operater
+Opisuje osobu čije je zaduženje da uoči neispravnost proizvoda ili neispravnost same porudžbine te da odbije narudžbinu ili da je koriguje, a ako je proizvod ispravan, 
+da istu potvrdi. Opisuje njegovo ime, prezime, broj telefona, adresu i datum rodjenja.
+	Indentifikacioni broj – Primarni ključ
+	Ime – stirng
+	Prezime - string
+	Broj telefona - string
+	Adresa - string
+	Datum rodjenja - Date

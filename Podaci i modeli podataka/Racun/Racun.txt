@@ -1,0 +1,8 @@
+Račun
+Opisuje izdati račun, sa stavkama, ukupnom cenom, PDV-om.
+Podaci o računu:
+Sadrži sledeće podatke:
+	Indentifikacioni broj – Primarni ključ
+	Stavke računa – stirng
+	Ukupna cena - decimal
+	PDV - decimal
