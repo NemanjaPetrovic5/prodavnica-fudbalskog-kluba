@@ -1,0 +1,22 @@
+Akteri: Magacioner, Operater, Kupac
+Preduslov: Narudžbina je prispela operateru.
+Postuslov: Narudžbina je prihvaćena ili odbijena.
+Ulaz: narudžbina.
+Izlaz: narudžbina (dostavljena kurirskoj službi ili odbijena)
+
+Glavni tok:
+1.Magacioner priprema artikle iz narudžbine
+2.Magacioner dostavlja artikle dežurnom operateru
+3.Operater pregleda artikle
+4.Operater predaje narudžbinu kurirskoj službi
+
+Alternativni tok:
+1.Ako se pojavi problem tokom pripreme artikala:
+	1.a) operater poziva kupca
+	1.b) operater i kupac dogovaraju korekciju
+	1.c) operater unosi korekcije u narudžbinu
+	1.d) ponovo se počinje od koraka 1 glavnog toka
+3. Ukoliko je artikal neispravan:
+	3.a) Artikal se odbacuje
+	3.b) Operater obaveštava magacionera o problemu
+	3.c) Izvršavanje se nastavlja od koraka 1 glavnog toka

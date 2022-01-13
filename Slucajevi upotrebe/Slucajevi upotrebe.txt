@@ -1,0 +1,19 @@
+1.Naručivanje 
+Akter: Kupac
+Preduslov: nema
+Postuslov: Narudžbina je kreirana i poslata operateru
+
+2.Obrada
+Akteri: Magacioner, Operater, Kupac
+Preduslov: Narudžbina je prispela operateru
+Postuslov: Narudžbina prihvaćena ili odbijena
+
+3.Dostava
+Akteri: Kurir, Kupac
+Preduslov: Prihvaćena narudžbina poslata kurirskoj službi
+Postuslov: Narudžbina je isporučena kupcu ili je vraćena u prodavnicu
+
+4.Evidencija narudžbine
+Akter: Operater, Magacioner
+Preduslov: Prispelo obaveštenje da je primopredaja izvršena 
+Postuslov: Narudžbina je kompletirana

@@ -1,0 +1,15 @@
+Akteri: Operater, Magacioner
+Preduslov: Prispelo obaveštenje da je primopredaja izvršena 
+Postuslov: Narudžbina je označena kao završena.
+Ulaz: Potvrda o isporuci (uspešnoj ili neuspešnoj).
+Izlaz: Narudžbina završena. Evidencija ažurirana.
+
+Glavni tok:
+1.Operater je dobio obaveštenje o primopredaji.
+2.Operater ažurira količinu artikala ukoliko je isporuka uspešna.
+3.Operater označava narudžbinu kao završenu.
+
+Alternativni tok:
+2.1. Isporuka nije bila uspešna:
+	2.1.a) Operater vraća narudžbinu magacioneru.
+	2.1.b) Prelazi se na korak 3 glavnog toka.

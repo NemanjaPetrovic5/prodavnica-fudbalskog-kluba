@@ -1,0 +1,25 @@
+Akteri: Kurir, Kupac
+Preduslov: Prihvaćena narudžbina poslata kurirskoj službi.
+Postuslov: Narudžbina je isporučena kupcu ili vraćena u prodavnicu. 
+Ulaz: Narudžbina (dostavljena kurirskoj službi)
+Izlaz: Potvrda o isporuci (uspešnoj ili neuspešnoj).
+
+Glavni tok:
+1.Kurir preuzima zapakovan paket.
+2.Kurir započinje isporuku.
+3.Kurir stiže na adresu kupcanje.
+4.Kurir kontaktira kupca radi preuzimanja paketa.
+5.Kupac daje kuriru novac.
+6.Kurir daje kupcu paket.
+7.Kurir dostavlja novac prodavnici ukoliko je plaćeno pouzećem.
+
+Alternativni tok:
+4.1. Kupac se ne javlja na telefon:
+	4.1.a) Isporuka se obustavlja.
+	4.1.b) Paket se vraća nazad u prodavnicu.
+5.1. Kupac nije pripremio novac za plaćanje:
+	5.1.a) Isporuka se obustavlja.
+	5.1.b) Paket se vraća nazad u prodavnicu.
+5.2.  Kupac je izvršio plaćanje onlajn:
+	5.2.a) Prelazi se na korak 6 glavnog toka
+        5.2.b) Preskače se korak 7 glavnog toka.

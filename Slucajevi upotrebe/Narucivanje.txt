@@ -1,0 +1,22 @@
+Akter: Kupac
+Preduslov: nema.
+Postuslov: Narudžbina je kreirana i poslata operateru.
+Ulaz: nema.
+Izlaz: Narudžbina (poslata operateru)
+
+Glavni tok:
+1. Kupcu se prikazuje sadržaj naše prodavnice
+2. Kupac odabira kategoriju proizvoda ili konkretan proizvod
+3. Kupcu se prikazuju informacije o izabranom proizvodu
+4. Kupac stavlja artikal u korpu
+5. Kupac pregleda detalje porudžbine
+6. Kupac klikne na dugme poruči
+7. Kupac popunjava podatke za slanje
+8. Kupac šalje narudžbinu na obradu. 
+Alternativni tokovi:   
+5, 6, 7, 8. Kupac je odustao od kupovine:
+	5.6.7.8.a) Proizvodi se uklanjaju iz korpe
+	5.6.7.8.b) Izvršavanje se vraća na korak 1 glavnog toka
+7. Kupac nije uneo ispravne podatke:
+	7.a) Kupac se obaveštava o nastalom problemu
+	7.b) V korak 7 glavnog toka
