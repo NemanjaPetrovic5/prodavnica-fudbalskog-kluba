@@ -1,0 +1,6 @@
+Preduslov za klijenta je da poseduje bilo koji PC koji ima browser ne stariji od 2 godine.
+Sa sereverske strane potrebno je obezbediti web hosting.  Naša preporuka je FastComet.
+U poredjenju sa drugim hosting provajderima, FastComet jasno pominje količinu skladišta i propusni opseg. Osnova ponuda iznosi 2.95$ mesečno.
+Ona obezbedjuje 15 gb skladišnog prostora i 25.000 mesečnih poseta za šta smatramo da je prihvatljiva ponuda.
+Takodje backend aplikacije biće radjen u Laravel 7 frameworku dok će frontend aplikacija biti izradjena u Vue.js 3.0.
+Odlučili smo se za Vue.js na frontendu jer je kompatibilniji u upotrebi sa Laravelom od React.js i Angular.js. Bazu koju ćemo korisiti je MySQL.
